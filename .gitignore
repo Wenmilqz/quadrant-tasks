@@ -1,0 +1,21 @@
+# 依赖与构建产物
+node_modules/
+dist/
+dist.zip
+
+# 日志
+*.log
+
+# 测试截图
+tests/shots/*.png
+tests/shots/*.jpg
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 测试的云端配置（真实地址与密钥，见 tests/smoke.mjs 头部说明）
+tests/config.mjs
+
+# 本地密钥（真实配置不提交，见 src/config.example.js）
+src/config.js
